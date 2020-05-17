@@ -3,13 +3,44 @@
     padding: 0;
 }
 
-#canvas{
-
-}
-
 p{
     position: absolute;
     margin-top: 200px;
     background-color: yellowgreen;
     z-index: 1;
 }
+
+#btn-change{
+    position: absolute;
+    position: fixed;
+    bottom: 10px;
+    margin-left: 80% ;  
+}
+
+#canvas{
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+ /* width */
+   ::-webkit-scrollbar {
+    width: 30px;
+  }
+  
+  /* Track */
+    ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(red, yellow, blue);
+  }
+  
+  /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+
+  }
