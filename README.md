@@ -1,1 +1,1 @@
-# fractalv2
+# Javascript Anwendung zur Visualisierung eines Fraktalbaums. 
